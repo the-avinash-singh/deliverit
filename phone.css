@@ -1,0 +1,74 @@
+/* navigation */
+#nav{
+    flex-direction: column;
+}
+
+#nav ul li a {
+    margin:0.5rem;
+    padding: 0rem .4rem;
+}
+/* home */
+#home{
+    height: 31rem;
+    flex-direction: column;
+    padding: 0rem 1.5rem;
+}
+#home::before{
+    height: 37.7rem;
+    
+}
+#home p{
+    font-size:1rem;
+}
+/* services */
+#service{
+    flex-direction: column;
+}
+#service .box
+{
+    font-size: 1rem;
+}
+
+.service-cont::before{
+    background: none;
+}
+/* clint */
+#clint{
+    flex-wrap: wrap;
+}
+
+.clint{
+    padding: .45rem;
+
+}
+#clint img{
+    width:5rem;
+    height: 2.5rem;
+    padding:3rem 0rem;
+    border: 0rem;
+    border-radius: 3rem;
+}
+/* contacts */
+#contact-box label{
+    font-size: 1rem;
+}
+#contact-box input,#contact-box textarea{
+    font-size: .7rem;
+}
+/* footer */
+footer{
+    font-size: .75rem;
+}
+/* utility */
+.primary{
+    font-size: 1.5rem;
+}
+
+.secondry{
+    font-size: 1.4rem;
+}
+.btn{
+    font-size: .75rem;
+    padding: 0.4rem .7rem;
+    margin-top: 0.6rem;
+}
