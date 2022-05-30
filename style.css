@@ -367,7 +367,7 @@ footer {
 margin: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content:center;
     align-items:center;
 }
 #veg .box{
@@ -411,7 +411,7 @@ margin: 1rem;
 margin: 1rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content:left;
+    justify-content:center;
     align-items:center;
 }
 #non .box{

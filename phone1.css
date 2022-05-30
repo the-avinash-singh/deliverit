@@ -1,0 +1,96 @@
+/* navigation */
+#nav{
+    flex-direction: column;
+
+}
+
+#nav li a{
+    padding: 1.2rem 0.7rem;
+    margin: .4rem;
+}
+
+
+/* intro section */
+#intro{
+    padding: 0.2rem 3rem;
+}
+
+#intro::before{
+    height: 50.3rem;
+}
+@media screen and (max-width:525px) {
+    #intro::before{
+        height: 52.1rem;
+    }
+    
+}
+@media screen and (max-width:422px) {
+    #intro::before{
+        height:53.9rem ;
+    }
+    #intro{
+        padding: 0.2rem 1rem;
+    }
+    
+}
+
+
+/* hygiene section */
+#hygine{
+    padding: 0.6rem 0.8rem;
+}
+
+@media screen and (max-width:447px) {
+    #hygine::before{
+        height:28.4rem ;
+    }
+
+    #hygine{
+        height: 27.2rem;
+    }
+}
+
+
+/* veg section */
+@media screen and (max-width:1860px){
+    .veg{
+        justify-content: center;
+    }
+    #veg::before{
+        height: 91.7rem;
+    }
+    
+}
+@media screen and (max-width:1251px){
+    #veg::before{
+        height: 177.2rem;
+    }
+    
+}
+@media screen and (max-width:504px){
+    #veg::before{
+        height: 181.4rem;
+    }
+    
+}
+
+
+/* non section */
+@media screen and (max-width:1860px){
+    .non{
+        justify-content: center;
+    }
+    
+}
+@media screen and (max-width:1251px) {
+    #non::before{
+        height: 121rem;
+    }
+    
+}
+@media screen and (max-width:622px) {
+    #non::before{
+        height: 130rem;
+    }
+    
+}
