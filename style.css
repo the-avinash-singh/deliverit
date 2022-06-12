@@ -303,6 +303,8 @@ footer {
     align-items: center;
     height: 41rem;
     padding: 0.2rem 28rem;
+    animation: avi 3s 1 alternate ; 
+    
 }
 #intro::before{
     content: "";
